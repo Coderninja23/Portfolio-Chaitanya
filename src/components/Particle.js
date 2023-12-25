@@ -11,7 +11,7 @@ function Particle() {
             value: 160,
             density: {
               enable: true,
-              value_area: 1500,
+              value_area: 1501,
             },
           },
           line_linked: {
@@ -21,6 +21,7 @@ function Particle() {
           move: {
             direction: "right",
             speed: 0.05,
+
           },
           size: {
             value: 1,
